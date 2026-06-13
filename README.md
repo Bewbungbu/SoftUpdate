@@ -13,6 +13,7 @@ Dễ sử dụng: Giao diện trực quan, tập trung vào trải nghiệm ngư
 
 🚀 Mục tiêu dự án
 SoftUpdate được tạo ra nhằm đơn giản hóa quy trình bảo trì phần mềm trên máy tính cá nhân, giảm thiểu thời gian xử lý thủ công và nâng cao trải nghiệm sử dụng phần mềm hàng ngày.
+
 <img width="2560" height="1440" alt="Screenshot 2026-06-11 125059" src="https://github.com/user-attachments/assets/b69c1639-e0f3-4f21-ad7b-fcc99c2f93d3" />
 <img width="2560" height="1440" alt="Screenshot 2026-06-11 125045" src="https://github.com/user-attachments/assets/9442ec39-3e13-4d84-98c8-12b1904279a5" />
 <img width="2560" height="1440" alt="Screenshot 2026-06-11 125031" src="https://github.com/user-attachments/assets/353ec343-1685-4adc-bf91-b89b8f1a58b3" />
