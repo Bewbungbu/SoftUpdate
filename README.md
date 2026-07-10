@@ -11,7 +11,6 @@
 - [Cài đặt & Sử dụng](#-cài-đặt--sử-dụng)
 - [Tùy chỉnh & Cấu hình](#-tùy-chỉnh--cấu-hình)
 - [Tác giả](#-tác-giả)
-- [Giấy phép](#-giấy-phép)
 
 ---
 
