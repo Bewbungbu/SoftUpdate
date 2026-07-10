@@ -1,19 +1,71 @@
-SoftUpdate là dự án cá nhân được thiết kế để giải quyết bài toán quản lý và cập nhật phần mềm một cách tiện lợi và tối ưu nhất. Không chỉ dừng lại ở việc giữ cho ứng dụng của bạn luôn ở phiên bản mới nhất, SoftUpdate còn tích hợp bộ công cụ chẩn đoán và sửa các lỗi phổ biến, giúp chẩn đoán nhanh và khắc phục các sự cố thường gặp, đảm bảo hệ thống luôn vận hành ổn định và mượt mà.
+# 🚀 SoftUpdate
 
-✨ Các tính năng chính
-Cập nhật thông minh: Tự động kiểm tra và cập nhật phiên bản phần mềm mới nhất chỉ với vài thao tác.
+**Công cụ quản lý cập nhật phần mềm tự động (Winget GUI) và Sửa lỗi Win.**
 
-Chẩn đoán hệ thống: Tự động quét và phát hiện các xung đột hoặc lỗi tiềm ẩn trong phần mềm.
+---
 
-Sửa lỗi nhanh: Bộ công cụ tích hợp sẵn giúp khắc phục các sự cố phổ biến, giải phóng người dùng khỏi những rắc rối kỹ thuật phức tạp.
+## 📖 Mục lục
+- [Giới thiệu](#-giới-thiệu)
+- [Tính năng chính](#-tính-năng-chính)
+- [Yêu cầu hệ thống](#-yêu-cầu-hệ-thống)
+- [Cài đặt & Sử dụng](#-cài-đặt--sử-dụng)
+- [Tùy chỉnh & Cấu hình](#-tùy-chỉnh--cấu-hình)
+- [Tác giả](#-tác-giả)
+- [Giấy phép](#-giấy-phép)
 
-Hiệu suất tối ưu: Được phát triển để vận hành nhẹ nhàng, không gây chiếm dụng tài nguyên hệ thống.
+---
 
-Dễ sử dụng: Giao diện trực quan, tập trung vào trải nghiệm người dùng cuối.
+## 🌟 Giới thiệu
 
-🚀 Mục tiêu dự án
-SoftUpdate được tạo ra nhằm đơn giản hóa quy trình bảo trì phần mềm trên máy tính cá nhân, giảm thiểu thời gian xử lý thủ công và nâng cao trải nghiệm sử dụng phần mềm hàng ngày.
+**SoftUpdate** Công cụ giải quyết 2 vấn đề cho người dùng Win:
+1. Giao diện trực quan để quét và cập nhật hàng loạt các phần mềm trên máy tính (sử dụng lõi `winget` của Microsoft).
+2. Bộ công cụ tự động chẩn đoán và sửa chữa các lỗi hệ thống Win thường gặp.
 
-<img width="2560" height="1440" alt="Screenshot 2026-06-11 125059" src="https://github.com/user-attachments/assets/b69c1639-e0f3-4f21-ad7b-fcc99c2f93d3" />
-<img width="2560" height="1440" alt="Screenshot 2026-06-11 125045" src="https://github.com/user-attachments/assets/9442ec39-3e13-4d84-98c8-12b1904279a5" />
-<img width="2560" height="1440" alt="Screenshot 2026-06-11 125031" src="https://github.com/user-attachments/assets/353ec343-1685-4adc-bf91-b89b8f1a58b3" />
+<img width="2560" height="1440" alt="Screenshot 2026-06-11 125031" src="https://github.com/user-attachments/assets/0ceead81-a885-4b4c-ab7f-6f43a757cdb5" />
+
+---
+
+## ✨ Tính năng chính
+
+### 🔄 1. Quản lý Cập nhật Phần mềm (Tab 1)
+* **Quét và Cập nhật tự động:**
+* **Quản lý danh sách linh hoạt:**
+* **Chạy ngầm & Đặt lịch:**
+
+### 🛠️ 2. Sửa lỗi Windows (Tab 2)
+
+<img width="2560" height="1440" alt="Screenshot 2026-06-11 125045" src="https://github.com/user-attachments/assets/fc5591b0-97c5-48c0-9186-514c882793ba" />
+
+---
+
+## ⚙️ Yêu cầu hệ thống
+
+* **Hệ điều hành:** Win 10 hoặc Win 11.
+
+---
+
+## 📦 Cài đặt & Sử dụng
+
+1. Tải phiên bản mới nhất (File `.exe`) tại mục **[Releases](https://github.com/Bewbungbu/SoftUpdate/releases)**.
+2. Khởi chạy phần mềm.
+3. **Tab Cập nhật:** Bấm `Kiểm tra cập nhật`, tích chọn các phần mềm cần nâng cấp và bấm `Cập nhật đã chọn`.
+4. **Tab Sửa lỗi:** Chọn loại lỗi hệ thống bạn đang gặp phải trong menu thả xuống và bấm `Bắt đầu sửa lỗi`, hoặc bấm `Tự động chẩn đoán` để phần mềm tự quét.
+
+---
+
+## 🎨 Tùy chỉnh & Cấu hình
+
+Nhấn vào nút **Cài đặt (Bánh răng)** ở góc phải phía trên giao diện để:
+* Đổi ngôn ngữ (Tiếng Việt / Tiếng Anh).
+* Chuyển đổi giao diện (Theme): Sáng / Tối / Theo hệ thống.
+* Bật/tắt khởi động cùng Windows.
+* Bật/tắt chế độ chạy ngầm dưới System Tray.
+* Thiết lập chu kỳ quét bản cập nhật tự động.
+
+  <img width="2560" height="1440" alt="Screenshot 2026-06-11 125059" src="https://github.com/user-attachments/assets/4081e5a4-2774-48fe-bae9-4469fd3e765a" />
+
+---
+
+## 👨‍💻 Tác giả
+
+Bewbungbu
