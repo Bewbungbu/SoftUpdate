@@ -45,7 +45,7 @@
 
 ## 📦 Cài đặt & Sử dụng
 
-1. Tải phiên bản mới nhất (File `.exe`) tại mục **[Releases](https://github.com/Bewbungbu/SoftUpdate/releases)**.
+1. Tải phiên bản mới nhất SoftUpdate.exe tại mục **[Releases](https://github.com/Bewbungbu/SoftUpdate/releases)**.
 2. Khởi chạy phần mềm.
 3. **Tab Cập nhật:** Bấm `Kiểm tra cập nhật`, tích chọn các phần mềm cần nâng cấp và bấm `Cập nhật đã chọn`.
 4. **Tab Sửa lỗi:** Chọn loại lỗi hệ thống bạn đang gặp phải trong menu thả xuống và bấm `Bắt đầu sửa lỗi`, hoặc bấm `Tự động chẩn đoán` để phần mềm tự quét.
