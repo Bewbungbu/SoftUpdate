@@ -10,7 +10,7 @@
 - [Yêu cầu hệ thống](#-yêu-cầu-hệ-thống)
 - [Cài đặt & Sử dụng](#-cài-đặt--sử-dụng)
 - [Tùy chỉnh & Cấu hình](#-tùy-chỉnh--cấu-hình)
-- [Tác giả](#-tác-giả)
+- [Tác giả](#-tác-giả) 
 
 ---
 
