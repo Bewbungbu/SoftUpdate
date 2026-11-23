@@ -2,7 +2,7 @@
   <img src="docs/screenshots/logo.png" alt="SoftUpdate Logo" width="96" height="96" />
   <h1>SoftUpdate</h1>
   <p>
-    <strong>Bộ công cụ quản lý, cập nhật phần mềm (Winget GUI), dọn dẹp, tinh chỉnh và sửa chữa toàn diện cho Windows 10 / 11</strong>
+    <strong>Bộ công cụ quản lý, cập nhật phần mềm (Winget GUI), dọn dẹp, tinh chỉnh và sửa chữa cho Windows 10 / 11</strong>
   </p>
 
   <p>
@@ -19,7 +19,6 @@
   <p>
     <a href="#giới-thiệu">Giới thiệu</a> •
     <a href="#tính-năng-chính">Tính năng chính</a> •
-    <a href="#điểm-mới-ở-v205">Điểm mới v2.0.5</a> •
     <a href="#cài-đặt--sử-dụng">Cài đặt & Sử dụng</a> •
     <a href="#tùy-chỉnh--cấu-hình">Cấu hình</a> •
     <a href="#tác-giả">Tác giả</a>
@@ -44,22 +43,6 @@ Thay vì phải cài nhiều phần mềm rời rạc hoặc gõ lệnh thủ c�
 8. **Sửa chữa Windows** — 12 công cụ chẩn đoán & khắc phục lỗi Windows một chạm.
 
 ![Giao diện Tổng quan SoftUpdate v2.0.5](docs/screenshots/01_dashboard.png)
-
----
-
-## Điểm mới ở v2.0.5
-
-- **Cập nhật phần mềm thông minh hơn:**
-  - Tự động **phát hiện ứng dụng đang mở** trước khi cập nhật với hộp thoại 3 lựa chọn (*Đóng & Cập nhật* / *Vẫn cập nhật* / *Hủy*), ưu tiên đóng êm để bảo toàn dữ liệu.
-  - **Hậu kiểm bộ cài chạy ngầm** (giữ trạng thái đang cập nhật & khóa nút cho đến khi bộ cài ngầm hoàn tất, kèm van an toàn chống treo).
-  - **Timeout thông minh** (Idle 5 phút / Trần 20 phút cho các bộ cài nặng cỡ GB) và giải mã mã lỗi Winget kèm tooltip giải thích trực tiếp.
-- **Tinh chỉnh Windows chuẩn xác & an toàn hơn:**
-  - **Tắt BitLocker** ở tab Tinh chỉnh nay áp dụng cho **toàn bộ ổ đĩa nội bộ** (`C:`, `D:`, `E:`...) và tự động loại trừ USB / ổ cứng rời.
-  - Tự động nhận diện dịch vụ không tồn tại trên Windows 11 (như `Fax`, `HomeGroup`, `Media Player Legacy`, `NVIDIA Telemetry` cũ) để khóa công tắc và gắn nhãn `Không có sẵn`.
-- **Hoàn thiện giao diện & trải nghiệm:**
-  - Menu khay hệ thống (System Tray) bo góc trong suốt đồng bộ Dark/Light Mode.
-  - Căn giữa quang học chuẩn từng pixel cho các nút điều khiển thanh bên (`VI` / `EN`, Theme, Cài đặt).
-  - Tối ưu vòng đời worker, bảo toàn trạng thái phóng to khi thu gọn khay và cơ chế cập nhật OTA xác thực **SHA-256**.
 
 ---
 
@@ -176,9 +159,6 @@ Tích hợp 12 tác vụ xử lý các sự cố Windows thường gặp kèm kh
   - Bật/tắt **Thu gọn xuống khay hệ thống (System Tray)**.
   - Thiết lập **Lịch quét tự động** (*Hàng ngày* / *Hàng tuần* / *Hàng tháng* / *Tắt*).
   - Kiểm tra **Cập nhật ứng dụng (OTA)** trực tiếp từ GitHub.
-
-> [!TIP]
-> Nhấn tổ hợp phím **`Ctrl + Shift + L`** bất cứ lúc nào để mở cửa sổ **Nhật ký hoạt động (Logs)** phục vụ kiểm tra chi tiết quá trình cập nhật, dọn dẹp hoặc sửa lỗi.
 
 ![Giao diện Sáng và Hộp thoại Cài đặt hệ thống](docs/screenshots/09_settings_light.png)
 
